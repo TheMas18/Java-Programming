@@ -1,5 +1,40 @@
 package OopsConcepts;
 
+
+
+class Animal{
+	public void makeSound() {
+		System.out.println("Some Sound");
+	}
+}
+
+class Cat extends Animal{
+	@Override
+	public void makeSound() {
+		System.out.println("Meow Meow");
+	}
+}
+
+class Dog extends Animal{
+	@Override
+	public void makeSound() {
+		System.out.println("Barking...");
+	}
+}
+
+public class polymorphism {
+	public static void makeSound(Animal animal) {
+		animal.makeSound();
+	}
+	public static void main(String[] args) {
+		Animal animal=new Cat();
+		Animal animal2=new Dog();
+		makeSound(animal2);
+		
+	}
+}
+
+
 // 1)Compile time polymorphism
 
 //variable shadowing

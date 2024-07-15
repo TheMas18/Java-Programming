@@ -54,15 +54,15 @@ public class Student implements Comparable<Student> {
 	@Override
 	public int compareTo(Student other) {
 		if (this.cgpa != other.cgpa) {
-			System.out.println(this.getName()+Double.compare(other.cgpa, this.cgpa));
+			//System.out.println(this.getName()+Double.compare(other.cgpa, this.cgpa));
 			return Double.compare(other.cgpa, this.cgpa);
 		}
 		else if(!this.name.equals(other.name)) {
-			System.out.println(this.getName()+this.name.compareTo(other.name));
+			//System.out.println(this.getName()+this.name.compareTo(other.name));
 			return this.name.compareTo(other.name);
 		}
 		else {
-			System.out.println(Integer.compare(this.id, other.id));
+			//System.out.println(Integer.compare(this.id, other.id));
 			return Integer.compare(this.id, other.id);
 		}
 	}
