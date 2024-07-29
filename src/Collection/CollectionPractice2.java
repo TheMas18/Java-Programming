@@ -124,7 +124,8 @@ public class CollectionPractice2 {
 		
 		
 		
-		
+		HashMap<Integer, Integer> map=new  HashMap<Integer, Integer>();
+	
 		
 		
 		
