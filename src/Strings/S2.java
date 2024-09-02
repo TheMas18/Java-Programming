@@ -34,6 +34,9 @@ class Result {
 		int n = s.length();//4
 		int start = -1, end = -1;
 
+		StringBuilder sb=new StringBuilder();
+		sb.isEmpty();
+		
 		for (int i = 0; i < n / 2; i++) {//i<2
 			if (s.charAt(i) != s.charAt(n - 1 - i)) {//4-1-0
 				start = i;//0
