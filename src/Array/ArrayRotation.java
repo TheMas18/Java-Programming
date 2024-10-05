@@ -2,7 +2,7 @@ package Array;
 
 public class ArrayRotation {
 	public static void main(String[] args) {
-		int[] array = {1, 2, 3, 4, 5, 6, 7 };
+		int[] array = {1, 2, 3, 4, 5, 6};
 		int positions = 2;
 
 		// Create a temporary array to store rotated elements

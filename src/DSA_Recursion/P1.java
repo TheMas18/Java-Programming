@@ -2,7 +2,7 @@ package DSA_Recursion;
 
 public class P1 {
 
-//Q print 1-5 and pprint 5-1
+//Q print 1-5 and print 5-1
 //	public static void main(String[] args) {
 //		fun(5);
 //		funRev(5);

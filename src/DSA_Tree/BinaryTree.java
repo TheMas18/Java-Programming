@@ -1,4 +1,4 @@
-package DSA;
+ package DSA_Tree;
 
 import java.util.Scanner;
 

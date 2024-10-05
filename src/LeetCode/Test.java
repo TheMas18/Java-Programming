@@ -1,11 +1,16 @@
 package LeetCode;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 //Return the index of smallest number >= target
 public class Test {
 
 	public static void main(String[] args) {
 		int[] nums = { 2, 3, 5, 9, 14, 16, 18 };
 		System.out.println("index : " + binarySearch(nums, 15) + "  Number : " + nums[binarySearch(nums, 15)]);
+		
+	
 
 	}
 

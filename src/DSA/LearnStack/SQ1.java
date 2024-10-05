@@ -1,4 +1,4 @@
-package Stack;
+package DSA.LearnStack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
