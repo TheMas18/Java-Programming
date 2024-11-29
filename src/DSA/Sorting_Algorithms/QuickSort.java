@@ -8,8 +8,6 @@ public class QuickSort {
 		int[] arr = { 4, 5, 3, 1, 2 };
 		quickSort(arr,0,arr.length-1);
 		System.out.println(Arrays.toString(arr));
-		int a=5/2;
-		System.out.println(a);
 	}
 	
 	static void quickSort(int arr[] , int low, int hi) {
