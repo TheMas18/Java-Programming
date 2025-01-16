@@ -5,9 +5,12 @@ public class SwapWithout3Var {
 		int a=10;
 		int b=20;
 		
-		b=b-a;
-		a=a+b;
-		
+//		b=b-a;
+//		a=a+b;
+//		
+		a=a^b;
+		b=a^b;
+		a=a^b;
 		System.out.println("a = "+a);
 		System.out.println("b = "+b);
 	}
