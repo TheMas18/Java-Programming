@@ -53,6 +53,7 @@ public class BinarySearchTree {
 			node.right = insert(value, node.right);
 		}
 		node.height = Math.max(height(node.left), height(node.right) + 1);
+		System.out.println("Height of " + node.value + " is " + node.height);
 		return node;
 	}
 

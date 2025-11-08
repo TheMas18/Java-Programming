@@ -5,9 +5,9 @@ interface Employee {
 }
 
 public class VariablesInLambdaexp {
-	int x=10;
-	public  void main(String[] args) {
-		
+
+	public static  void main(String[] args) {
+		int x=10;
 		Employee employee=()->{
 			System.out.println(x);//we can access the instance variable
 			return "100";
